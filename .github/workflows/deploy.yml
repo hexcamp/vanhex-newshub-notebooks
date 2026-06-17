@@ -31,7 +31,7 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           cp README.md content
-          jupyter lite build --contents content --output-dir public/6kg6rweynwea-vanhex-openstreetmap-notebooks
+          jupyter lite build --contents content --output-dir public/6kg6r4iaaaaa-vanhex-newshub-notebooks
 
       #- name: Upload artifact
       #  uses: actions/upload-pages-artifact@v3
